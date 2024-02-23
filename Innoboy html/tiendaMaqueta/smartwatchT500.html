@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <!--Menú. bs5-navbar-minmal-a-->
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="nav navbar-nav">
+                <a class="nav-item nav-link active" href="index.html" aria-current="page"
+                    >INNOBOY <span class="visually-hidden">(current)</span></a>
+               
+                    <a class="nav-item nav-link" href="Productos.html">Productos</a>
+                    <a class="nav-item nav-link" href="inventario.html">Inventario</a>
+                    <a class="nav-item nav-link" href="envíoInternacional.html">Envío Internacional</a>
+                    <a class="nav-item nav-link" href="ventas.html">Ventas</a>
+                    <a class="nav-item nav-link" href="clientes.html">Clientes</a>
+                    <a class="nav-item nav-link" href="usuarios.html">Usuarios</a>
+                    <a class="nav-item nav-link" href="envíoNacional.html">Envío Nacional</a>
+                    <a button type="button" class="btn btn-outline-secondary position-absolute top-50 end-0 translate-middle-y bi bi-box-arrow-left" href="Login.html" role="button">Salir</a>
+                    
+            </div>
+        </nav>
+       
+<!-- Jumbotron   https://www.w3schools.com/bootstrap4/bootstrap_jumbotron.asp-->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+      <h1 class="display-4">Bienvenidos a nuestra tienda</h1>
+      <p class="lead">Encuentra las mejores ofertas en tecnología</p>
+
+    </div>
+  </div>
+
+
+  <!-- Sección de productos destacados -->
+  <div class="container mt-6">
+    <h2 class="text-center">SMARTWATCH T500</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">
+          <img src="data:image/jpeg;base64,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" 
+          class="rounded mx-auto d-block" style="width: 230px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mx-auto p-2 d-flex justify-content-center">Smartwatch T500</h5>
+            <p class="card-text d-flex justify-content-center">$60.000</p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a class="nav-item nav-link btn btn-primary btn btn-success mx-auto p-2 bg-secondary text-white d-flex justify-content-center" href="Productos.html">Realiza tu compra</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6" > 
+        <div class="card p-2 mb-2 bg-secondary-subtle text-emphasis-secondary">
+          <div class="card-body ">
+            <h4 class="card-title mx-auto p-2 d-flex justify-content-center">ESPECIFICACIONES</h4>
+            <p class="text-lg-start">1. Controla la música de tu celular.</p>
+            <p class="text-start">2. Notificaciones de redes sociales.
+            <p class="text-start">3. Avisa de llamadas entrantes.</p>
+            <p class="text-start">4. Contestar y realizar llamadas.</p>
+            <p class="text-start">5. Monitorea ritmo cardiaco y oxímetro.</p>
+            <p class="text-start">6. Recordatorio de información (SMS / QQ / WeChat / Skype / Facebook / Twitter / Line / WhatsApp)</p>
+            <p class="text-start">7. Pantalla de luz automática</p>
+            <p class="text-start">8. Selfie agita la muñeca para tomar una foto de tu celular</p>
+            <p class="text-start">9. Disponible en Negro, Rosa y Blanco</p>
+            
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-md-4">
+        <div class="card p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">
+          <img src="https://m.media-amazon.com/images/I/61-7pBndv4L._AC_UF894,1000_QL80_.jpg" class="rounded mx-auto d-block" style="height:200px"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mx-auto p-2 d-flex justify-content-center">Radio 7010B</h5>
+            <p class="card-text d-flex justify-content-center">$230.000</p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a class="nav-item nav-link btn btn-primary btn btn-success mx-auto p-2 bg-secondary text-white d-flex justify-content-center" href="Productos.html">Ver Detalle</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+
+        <!--Pie de página bootrap no tine footer se hace contendor fluid-->
+
+        
+        <div class="container-fluid">
+          <div class="row p-4 bg-secondary text-white" >
+             
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                  <p class="h3 mb-3">INNOBOY</p>
+                 
+                  
+                  <p class="lh-sm" style="text-align: justify"></p>Nuestro compromiso con la satisfacción del cliente es nuestra máxima prioridad. 
+                    Siempre estamos disponibles para ayudarlo a encontrar la solución perfecta para sus necesidades tecnológicas y proporcionarle 
+                    asesoramiento experto y soporte técnico.</p>
+                  
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                  <p class="h3 mb-3">Contactenos</p>
+                  <ul>
+                      <li>Teléfono: 3213213213</li>
+                       <li>Correo Electrónico: innoboy@innoboy.com.co</li>   
+                        <li>Dirección: Centro Tunja</li> 
+                  </ul>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <p class="h3 mb-3">Redes sociales</p>
+                  <p class="mb-3">Síganos en nuestras redes sociales para estar al tanto de las últimas noticias, ofertas especiales y consejos tecnológicos:</p>
+                  <a href="#" class="text-white mx-2 bi bi-facebook">Facebook</a>
+                  <a href="#" class="text-white mx-2 text-decoration-none bi bi-instagram">Instagram</a>
+              </div>
+          </div><!--fin fila-->
+          <div class="row bg-dark">
+             <p class="text-white"> © 2000-2024. INNOBOY. Todos los derechos reservados.</p>
+
+          </div>
+        </div>
+
+      <script
+          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+          integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+          crossorigin="anonymous"
+      ></script>
+
+      <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+          integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+          crossorigin="anonymous"
+      ></script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <!--Menú. bs5-navbar-minmal-a-->
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="nav navbar-nav">
+                <a class="nav-item nav-link active" href="index.html" aria-current="page"
+                    >INNOBOY <span class="visually-hidden">(current)</span></a>
+               
+                    <a class="nav-item nav-link" href="Productos.html">Productos</a>
+                    <a class="nav-item nav-link" href="inventario.html">Inventario</a>
+                    <a class="nav-item nav-link" href="envíoInternacional.html">Envío Internacional</a>
+                    <a class="nav-item nav-link" href="ventas.html">Ventas</a>
+                    <a class="nav-item nav-link" href="clientes.html">Clientes</a>
+                    <a class="nav-item nav-link" href="usuarios.html">Usuarios</a>
+                    <a class="nav-item nav-link" href="envíoNacional.html">Envío Nacional</a>
+                    <a button type="button" class="btn btn-outline-secondary position-absolute top-50 end-0 translate-middle-y bi bi-box-arrow-left" href="Login.html" role="button">Salir</a>
+                    
+            </div>
+        </nav>
+       
+<!-- Jumbotron   https://www.w3schools.com/bootstrap4/bootstrap_jumbotron.asp-->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container text-center">
+      <h1 class="display-4">Bienvenidos a nuestra tienda</h1>
+      <p class="lead">Encuentra las mejores ofertas en tecnología</p>
+
+    </div>
+  </div>
+
+
+  <!-- Sección de productos destacados -->
+  <div class="container mt-6">
+    <h2 class="text-center">AUDIFONOS M90</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">
+            <img src="data:image/jpeg;base64,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" class="rounded mx-auto d-block" style="width: 230px" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mx-auto p-2 d-flex justify-content-center">Audifonos M90</h5>
+            <p class="card-text d-flex justify-content-center">$60.000</p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a class="nav-item nav-link btn btn-primary btn btn-success mx-auto p-2 bg-secondary text-white d-flex justify-content-center" href="Productos.html">Realiza tu compra</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6" > 
+        <div class="card p-2 mb-2 bg-secondary-subtle text-emphasis-secondary">
+          <div class="card-body ">
+            <h4 class="card-title mx-auto p-2 d-flex justify-content-center">ESPECIFICACIONES</h4>
+            <p class="text-lg-start">1. Cuenta con tecnología True Wireless.</p>
+            <p class="text-start">2. Alcance inalámbrico de 10 m.</p>
+            <p class="text-start">3. Modo manos libres incluido.</p>
+            <p class="text-start">4. Con cancelación de ruido.</p>
+            <p class="text-start">5. Con estuche de carga.</p>
+            <p class="text-start">6. Con micrófono incorporado.</p>
+            <p class="text-start">7. Resistentes al agua.</p>
+            <p class="text-start">8. Su clasificación IP es IPX5.</p>
+            <p class="text-start">9. Sonido superior y sin límites.</p>
+            
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-md-4">
+        <div class="card p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">
+          <img src="https://m.media-amazon.com/images/I/61-7pBndv4L._AC_UF894,1000_QL80_.jpg" class="rounded mx-auto d-block" style="height:200px"  class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title mx-auto p-2 d-flex justify-content-center">Radio 7010B</h5>
+            <p class="card-text d-flex justify-content-center">$230.000</p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a class="nav-item nav-link btn btn-primary btn btn-success mx-auto p-2 bg-secondary text-white d-flex justify-content-center" href="Productos.html">Ver Detalle</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+
+        <!--Pie de página bootrap no tine footer se hace contendor fluid-->
+
+        
+        <div class="container-fluid">
+          <div class="row p-4 bg-secondary text-white" >
+             
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                  <p class="h3 mb-3">INNOBOY</p>
+                 
+                  
+                  <p class="lh-sm" style="text-align: justify"></p>Nuestro compromiso con la satisfacción del cliente es nuestra máxima prioridad. 
+                    Siempre estamos disponibles para ayudarlo a encontrar la solución perfecta para sus necesidades tecnológicas y proporcionarle 
+                    asesoramiento experto y soporte técnico.</p>
+                  
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                  <p class="h3 mb-3">Contactenos</p>
+                  <ul>
+                      <li>Teléfono: 3213213213</li>
+                       <li>Correo Electrónico: innoboy@innoboy.com.co</li>   
+                        <li>Dirección: Centro Tunja</li> 
+                  </ul>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <p class="h3 mb-3">Redes sociales</p>
+                  <p class="mb-3">Síganos en nuestras redes sociales para estar al tanto de las últimas noticias, ofertas especiales y consejos tecnológicos:</p>
+                  <a href="#" class="text-white mx-2 bi bi-facebook">Facebook</a>
+                  <a href="#" class="text-white mx-2 text-decoration-none bi bi-instagram">Instagram</a>
+              </div>
+          </div><!--fin fila-->
+          <div class="row bg-dark">
+             <p class="text-white"> © 2000-2024. INNOBOY. Todos los derechos reservados.</p>
+
+          </div>
+        </div>
+
+      <script
+          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+          integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+          crossorigin="anonymous"
+      ></script>
+
+      <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+          integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+          crossorigin="anonymous"
+      ></script>
+  </body>
+</html>
